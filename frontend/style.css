@@ -1,0 +1,24 @@
+QMainWindow{
+	background-color: black;
+	color: #ff9900;
+}
+
+QLabel#leftEyeBox, QLabel#rightEyeBox, QLabel#baseImage {
+	border: 2px solid green;
+}
+
+QPushButton {
+	background-color: #e60023;
+	color: white;
+	border-width: 2px;
+	border-radius: 10px;
+}
+
+QPushButton:pressed{
+	border-style: inset;
+	background-color: rgb(97, 97, 97)
+}
+
+QAbstractButton {
+	color: rgb(175, 189, 196);
+}
